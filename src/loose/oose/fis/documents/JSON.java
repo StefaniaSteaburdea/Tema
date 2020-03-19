@@ -3,6 +3,7 @@ package loose.oose.fis.documents;
 import java.util.Arrays;
 
 public class JSON extends Document {
+    private int cod=10;
     public JSON(String[] continut) {
         super(continut);
     }
